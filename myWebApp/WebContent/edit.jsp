@@ -11,7 +11,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Integrated Public Transport Navigation System</title>
 
-<link rel="stylesheet" href="member.css" />
+<link rel="stylesheet" href="member.css" />  
 
 </head>
 <body>
@@ -91,7 +91,7 @@ document.onclick = mclose;
 
 <%
 	
-	if(session.getAttribute("auth")==null)
+	if(session.getAttribute("auth")==null)//fuck keng
 	{
 		//session.setMaxInactiveInterval(600); //600 secs = 10 mins
 		response.sendRedirect("login.jsp");
