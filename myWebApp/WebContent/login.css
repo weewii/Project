@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+
+
+body{
+	background: #FFFF9D repeat-x;	
+	font:100%;
+}
+
+table{
+	background: #8FB3BF;
+	
+}
+
+#big_container{
+	margin:0 auto;
+	text-align:center;
+	padding: 80px 100px 100px 100px;
+}
+
+#container {
+	width:600px;
+	margin:0 auto;
+	text-align:center;
+	padding: 80px 100px 100px 100px;
+}
+
+#error {
+	padding: 100px;
+}
+
+#color1 {
+	background-color:#1582BF; 
+	font-weight:bold; 
+	Color:#FFFFFF;
+}
+	
+#color2 {
+	background-color:#8FB3BF; 
+	font-weight:bold;
+	Color:#FFFFFF;
+}

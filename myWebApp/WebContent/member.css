@@ -1,0 +1,88 @@
+@CHARSET "UTF-8";
+
+body{
+	background: #FFFF9D;	
+	font:100%;
+}
+	
+table{
+	background: #FFF6E5;
+	width:600px;
+	margin:0 auto;
+	text-align:center;
+	
+}
+
+#color1 {
+	background-color:#FF7F66; 
+	font-weight:bold; 
+	Color:#000000;
+	border: 1px solid green;
+}
+	
+#color2 {
+	background-color:#FFF6E5; 
+	font-weight:bold;
+	Color:#000000;
+}
+
+#big_container{
+	margin:0 auto;
+	text-align:center;
+	padding: 40px 100px 100px 100px;
+}
+
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 16px arial}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 120px;
+	background: #5970B2;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none}
+
+#sddm li a:hover
+{	background: #49A3FF}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #EAEBD8;
+		color: #2875DE;
+		font: 14px arial}
+
+	#sddm div a:hover
+	{	background: #49A3FF;
+		color: #FFF}
+		
+#message{
+	margin: 20px 0 0 -70px;
+	text-align:center;
+}
